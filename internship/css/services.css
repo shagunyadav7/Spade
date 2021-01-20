@@ -1,0 +1,52 @@
+.card_services {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow-x: hidden;
+}
+
+.card_services:hover {
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+}
+
+.adarsh,
+.raturi {
+    display: block;
+    transition: 1s;
+}
+
+.adarsh i {
+    color: white !important;
+}
+
+.raturi p b {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white !important;
+}
+
+@media only screen and (max-width: 576px) {
+    .adarsh i {
+        font-size: 3rem;
+    }
+    .raturi p b {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: white !important;
+    }
+}
+
+.card_parent {
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-dark-gray) !important;
+    display: block;
+}

@@ -1,0 +1,63 @@
+.achievement p{
+    font-size: 25px;
+    color: black;
+    text-shadow: 0 0 3px blue, 0 0 5px yellow;
+}
+.achievement h4,h2{
+    text-shadow: 0 0 3px #FF0000;
+}
+.achievement .first-box{
+	height: 100vh;
+	width: 100%;
+	background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0), rgba(102, 50, 5, 1)),
+    url("../img/ach2.jpeg");
+	background-size: cover;
+	background-position:center ;
+	color: white;
+}
+
+.achievement .second-box{
+	height: 100vh;
+	width: 100%;
+	background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0), rgba(117, 19, 93, 1)),
+    url('../img/news2.jpeg');
+	background-size: cover;
+	background-position:center ;
+	color: white;
+
+}
+
+.achievement .third-box{
+	height: 100vh;
+	width: 100%;
+	background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0), rgba(80, 110, 28, 1)),
+    url('../img/ac2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	color: white;
+}
+.achievement .fourth-box{
+	/* rgba(255,255,255,0), */
+	height: 100vh;
+	width: 100%;
+	background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0), rgba(109, 60, 55, 1)),
+    url('../img/ys1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
+.achievement .fifth-box{
+	height: 100vh;
+	width: 100%;
+	background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(109, 60, 55, 1)),
+    url('../img/sd1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}

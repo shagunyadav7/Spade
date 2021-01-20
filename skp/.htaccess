@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^skp\.spadeems\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.skp\.spadeems\.com$
+RewriteRule ^/?$ "https\:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLSf\-CoMmEW_iAmrquTHuklhCBvFxzD\-EXgYktf4xzw7xeNfwYQ\/viewform" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

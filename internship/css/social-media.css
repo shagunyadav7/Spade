@@ -1,0 +1,52 @@
+#social-media .btn-insta {
+    /* background-color: #2E5E86 !important; */
+    color: white !important;
+    text-decoration: none;
+}
+
+#social-media .btn-insta a {
+    color: white !important;
+}
+
+#social-media .btn-insta i {
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+#social-media .card {
+    transition: 0.8s;
+}
+
+#social-media .card:hover {
+    box-shadow: 0 0 12px rgb(109, 109, 109);
+}
+
+#social-media .btn-tw {
+    /* background-color: #55ACEE !important; */
+    color: white !important;
+    text-decoration: none;
+}
+
+#social-media .btn-tw a {
+    color: white !important;
+}
+
+#social-media .btn-tw i {
+    color: white !important;
+    font-size: 1.5rem;
+}
+
+#social-media .btn-li {
+    /* background-color: #0082CA !important; */
+    color: white !important;
+    text-decoration: none;
+}
+
+#social-media .btn-li a {
+    color: white !important;
+}
+
+#social-media .btn-li i {
+    color: white !important;
+    font-size: 1.5rem;
+}

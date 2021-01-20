@@ -1,0 +1,167 @@
+:root {
+    --font-size: 16px;
+    --font: 'Manrope', sans-serif;
+    --heading-font: 'Montserrat', sans-serif;
+    --blue: #13A1DB;
+    --dark-blue: rgb(5, 10, 29);
+    --bg-dark-blue: rgb(5, 10, 29, 0.8);
+    --dark-blue: rgb(5, 10, 29);
+    --bg-dark-gray: rgba(0, 0, 0, 0.678);
+    --purple: #7810D6;
+    --white: white;
+    --black: black;
+    font-size: var(--font-size);
+}
+
+h3 {
+    color: #fff;
+}
+
+h5 {
+    color: #fff;
+}
+
+p {
+    color: #a0dcdc;
+    ;
+}
+
+.font-heading {
+    font-family: var(--heading-font) !important;
+}
+
+.border-blue {
+    border-color: var(--blue) !important;
+}
+
+html body {
+    font-family: var(--font);
+}
+
+.navbar,
+.footer {
+    background-color: var(--dark-blue) !important;
+}
+
+.heading {
+    font-family: var(--heading-font) !important;
+    text-align: center !important;
+    padding-bottom: .5rem !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+    font-size: 2.5rem;
+}
+
+.bg-hover-blue:hover {
+    background-color: var(--blue) !important;
+}
+
+.text-hover-purple {
+    transition: 0.5s;
+}
+
+.text-hover-purple:hover {
+    color: var(--purple) !important;
+}
+
+.bg-dark-blue {
+    background-color: var(--bg-dark-blue) !important;
+}
+
+.bg-dark-gray {
+    background-color: var(--bg-dark-gray) !important;
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+
+/* .bg-dark-blue p:not(label):not(input):not(textarea),
+.footer * {
+    color: var(--white);
+} */
+
+
+/*.bg-dark-blue p {
+    color: #9de0e0 !important;
+} */
+
+.bg-white * {
+    color: var(--black) !important;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 1.5rem !important;
+    transition: 0.5s;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.bg-dark-blue .button {
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+.bg-dark-blue .button:hover {
+    box-shadow: 0px 0px 10px rgb(221, 221, 221);
+}
+
+.bg-white .button {
+    border: 2px solid var(--black);
+    color: var(--black);
+}
+
+.bg-white .button:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.bg-blue {
+    background-color: var(--blue) !important;
+}
+
+
+/* body.modal-open .container {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+} */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--bg-dark-blue);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    background-color: var(--dark-blue);
+}
+
+::-webkit-scrollbar-corner {
+    background-color: var(--dark-blue);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+#event-slider img {
+    height: 500px;
+}

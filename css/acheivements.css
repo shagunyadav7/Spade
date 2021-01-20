@@ -1,0 +1,32 @@
+#achievements .carousel-item {
+    height: 400px !important;
+    transition: 1s;
+}
+
+#achievements img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#achievements .btn-floating i {
+    color: #fff !important;
+    background-color: var(--blue) !important;
+}
+
+#achievements.carousel-multi-item .carousel-indicators li {
+    background-color: var(--blue) !important;
+}
+
+#achievements .carousel-item:not(.active) {
+    display: none;
+    transition: 1s;
+}
+
+#achievements .carousel-item.active {
+    transition: 1s;
+}
+
+#achievements .carousel-indicators li {
+    cursor: initial;
+}

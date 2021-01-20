@@ -1,0 +1,120 @@
+body {
+    background-image: url('https://raw.githubusercontent.com/spadeems/web/master/img/bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+#carousel-text {
+    position: absolute;
+    z-index: 1001;
+    height: 100%;
+}
+
+h1 {
+    color: #fff;
+}
+
+#carousel-text .container-fluid {
+    padding-top: 18%;
+    height: 100%;
+    background-color: var(--bg-dark-gray) !important;
+}
+
+#carousel-text .container-fluid h1 {
+    color: var(--blue) !important;
+}
+
+@media only screen and (min-width: 769px) {
+    #carousel-text .container-fluid h1 {
+        font-size: 350%;
+    }
+    #carousel-text .container-fluid h3 {
+        margin-top: 2rem;
+        font-size: 200%;
+    }
+    #carousel-text .container-fluid p {
+        margin-top: 1rem;
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #carousel-text .container-fluid {
+        padding-top: 20%;
+        height: 100%;
+    }
+    #carousel-text .container-fluid h1 {
+        font-size: 250%;
+    }
+    #carousel-text .container-fluid h3 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    #carousel-text .container-fluid p {
+        margin-top: 1rem;
+        font-size: 200%;
+    }
+    #carousel-text .container-fluid .button {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #carousel-text .container-fluid {
+        padding-top: 20%;
+        height: 100%;
+    }
+    #carousel-text .container-fluid h1 {
+        font-size: 150%;
+    }
+    #carousel-text .container-fluid h3 {
+        margin-top: 0rem;
+        font-size: 1rem;
+    }
+    #carousel-text .container-fluid p {
+        margin-top: 1rem;
+        font-size: 200%;
+    }
+    #carousel-text .container-fluid .button {
+        font-size: 1rem !important;
+    }
+}
+
+#counter .col-lg-2 {
+    transition: 0.5s;
+}
+
+#counter .col-lg-2:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#services .col-lg-3 {
+    transition: 0.5s;
+}
+
+#services .col-lg-3:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#partners .col-lg-3 {
+    padding: 10px;
+}
+
+#partners .col-lg-3 img {
+    transition: 0.5s;
+    padding: 10px;
+}
+
+#partners .col-lg-3 img:hover {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}

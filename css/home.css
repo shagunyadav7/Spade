@@ -1,0 +1,187 @@
+ body {
+    background-image: url('https://raw.githubusercontent.com/spadeems/web/master/img/bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+/* #carousel-text {
+    position: absolute;
+    z-index: 1001;
+    height: 100%;
+}  */
+/* ========== CHANGES ============ */
+/* .myCoursel{
+    width: 1920px;
+    height: 540px;
+} */
+
+.mybg{   
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);   
+}
+.myText{
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+/* .zoom {
+    padding: 50px;
+    transition: transform .5s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }  */
+
+  /* .myDiv{
+    opacity:0.8;
+    background-color:yellow;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    padding:0;
+    margin:0;
+    z-index:1000;
+  } */
+
+  .myDiv{
+    background:linear-gradient( #ffbc51 , #febc3b); 
+     height: 100vh;
+    width: 100vw; 
+    top:0; 
+    left:0;
+}
+.myImg{
+    margin-top: 0;
+    margin-bottom:0 ;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-size: 50%;
+}
+/* .myContent{
+    padding: 60px;
+    text-align: right;
+    color: white;
+    font-size: 100px;
+} */
+
+
+
+
+  
+
+/* ==================================== */
+
+h1 {
+    color: #fff;
+}
+ 
+/* #carousel-text .container-fluid {
+    padding-top: 18%;
+    height: 100%;
+    background-color: var(--bg-dark-gray) !important;
+}
+
+#carousel-text .container-fluid h1 {
+    color: var(--blue) !important;
+} 
+
+@media only screen and (min-width: 769px) {
+    #carousel-text .container-fluid h1 {
+        font-size: 350%;
+    }
+    #carousel-text .container-fluid h3 {
+        margin-top: 2rem;
+        font-size: 200%;
+    }
+    #carousel-text .container-fluid p {
+        margin-top: 1rem;
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #carousel-text .container-fluid {
+        padding-top: 20%;
+        height: 100%;
+    }
+    #carousel-text .container-fluid h1 {
+        font-size: 250%;
+    }
+    #carousel-text .container-fluid h3 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    #carousel-text .container-fluid p {
+        margin-top: 1rem;
+        font-size: 200%;
+    }
+    #carousel-text .container-fluid .button {
+        font-size: 1.3rem !important;
+    }
+} */
+
+/* @media only screen and (max-width: 576px) {
+    #carousel-text .container-fluid {
+        padding-top: 20%;
+        height: 100%;
+    }
+    #carousel-text .container-fluid h1 {
+        font-size: 150%;
+    }
+    #carousel-text .container-fluid h3 {
+        margin-top: 0rem;
+        font-size: 1rem;
+    }
+    #carousel-text .container-fluid p {
+        margin-top: 1rem;
+        font-size: 200%;
+    }
+    #carousel-text .container-fluid .button {
+        font-size: 1rem !important;
+    }
+} */
+
+
+#counter .col-lg-2 {
+    transition: 0.5s;
+}
+
+#counter .col-lg-2:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#services .col-lg-3 {
+    transition: 0.5s;
+}
+
+#services .col-lg-3:hover {
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#partners .col-lg-3 {
+    padding: 10px;
+}
+
+#partners .col-lg-3 img {
+    transition: 0.5s;
+    padding: 10px;
+}
+
+#partners .col-lg-3 img:hover {
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+}
